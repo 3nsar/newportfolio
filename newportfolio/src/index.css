@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: DOTHAN;
+    src: url(./assets/DothanDemoRegular.ttf);
+}
+
+@theme{
+    --font-dothan: DOTHAN, "Arial"
+}
+
+@layer base {
+    html {
+        @apply bg-black;
+        @apply text-gray-200;
+        scroll-behavior: smooth;
+    }
+
+}
