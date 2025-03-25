@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div id="projects" className="min-h-screen flex flex-col items-center justify-items-center px-4 sm:px-8">
       <div className="text-center items-center flex flex-col max-w-6xl w-full">
-        <h1 className="mt-16 sm:mt-24 md:mt-48 text-4xl sm:text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-indigo-500 to-indigo-700 mb-4 sm:mb-6">
+        <h1 className="mt-16 sm:mt-24 md:mt-48 text-4xl sm:text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-indigo-500 to-indigo-700 mb-4 sm:mb-6 pb-3">
           Projekte
         </h1>
 
@@ -30,7 +30,6 @@ const Projects = () => {
               <div className="mb-4 flex-grow">
                 <div className="flex flex-wrap gap-2 mb-3">
                   <span className="px-2 py-1 bg-indigo-900/40 text-indigo-300 text-xs rounded-md">React</span>
-                  <span className="px-2 py-1 bg-indigo-900/40 text-indigo-300 text-xs rounded-md">Typescript</span>
                   <span className="px-2 py-1 bg-indigo-900/40 text-indigo-300 text-xs rounded-md">Scss</span>
                   <span className="px-2 py-1 bg-indigo-900/40 text-indigo-300 text-xs rounded-md">Framer Motion</span>
                 </div>
@@ -129,7 +128,7 @@ const Projects = () => {
                   Live
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/3nsar/newportfolio"
                   className="w-20 px-0 py-2 text-sm font-medium text-center bg-zinc-700/80 hover:bg-zinc-700 rounded-lg transition-colors duration-300 backdrop-blur-sm"
                 >
                   Code
@@ -157,7 +156,7 @@ const Projects = () => {
               </div>
               <div className="flex justify-start gap-3 mt-auto">
                 <a
-                  href="#"
+                  href="https://nftdevs.netlify.app/"
                   className="w-20 px-0 py-2 text-sm font-medium text-center bg-indigo-600/80 hover:bg-indigo-600 rounded-lg transition-colors duration-300 backdrop-blur-sm"
                 >
                   Live
