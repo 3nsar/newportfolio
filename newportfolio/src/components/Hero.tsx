@@ -1,8 +1,9 @@
 import ausweis from "../assets/ausweis.jpg"
 import { FaGithub } from "react-icons/fa"
 import { MdMail, MdPhone } from "react-icons/md"
+import ensarCv from "../assets/ensar-cv.pdf"
 
-export const Hero = () => {
+ const Hero = () => {
   return (
     <div className="">
       <div className="min-h-screen flex flex-col sm:flex-row items-center justify-center sm:justify-start px-4 sm:px-8 py-10 sm:py-0">
@@ -12,9 +13,13 @@ export const Hero = () => {
             Frontend Developer
           </p>
           <div className="flex flex-wrap items-center justify-center sm:justify-start gap-3 mt-6 sm:mt-8">
-            <button className="text-indigo-500 py-2 px-6 sm:py-3 sm:px-8 rounded-2xl border border-indigo-500 flex items-center justify-center text-base sm:text-lg font-medium h-10 sm:h-12 transition-colors hover:bg-indigo-600 hover:text-gray-200 hover:border-indigo-600">
-              Download CV
-            </button>
+          <a 
+              href={ensarCv}
+               download='ensar-cv'
+               className="cursor-pointer text-indigo-500 py-2 px-6 sm:py-3 sm:px-8 rounded-2xl border border-indigo-500 flex items-center justify-center text-base sm:text-lg font-medium h-10 sm:h-12 transition-colors hover:bg-indigo-600 hover:text-gray-200 hover:border-indigo-600"
+          >
+                      Download CV
+          </a>
 
             <a href="https://github.com/3nsar" target="_blank" className="text-indigo-500 p-2 rounded-full border border-indigo-500 flex items-center justify-center h-10 w-10 transition-colors hover:bg-indigo-600 hover:text-gray-200 hover:border-indigo-600">
                 <FaGithub className="w-5 h-5" />

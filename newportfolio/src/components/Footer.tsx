@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { MdMail, MdPhone } from 'react-icons/md'
 
 const Footer = () => {
