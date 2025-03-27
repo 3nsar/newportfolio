@@ -5,10 +5,10 @@ import ensarCv from "../assets/ensar-cv.pdf"
 
  const Hero = () => {
   return (
-    <div className="">
-      <div className="min-h-screen flex flex-col sm:flex-row items-center justify-center sm:justify-start px-4 sm:px-8 py-10 sm:py-0">
+ 
+      <div className="min-h-screen flex flex-col items-center justify-center  py-10  sm:flex-row  sm:justify-start px-4 sm:px-8 sm:py-0">
         <div className="sm:ml-8 md:ml-20 text-center sm:text-left mb-8 sm:mb-0">
-          <p className="text-2xl sm:text-3xl md:text-4xl underline decoration-indigo-700">Hallo, ich bin Ensar</p>
+          <p className="text-2xl  underline decoration-indigo-700 sm:text-3xl md:text-4xl">Hallo, ich bin Ensar</p>
           <p className="text-4xl sm:text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-800 via-indigo-500 to-indigo-300 mt-2">
             Frontend Developer
           </p>
@@ -38,7 +38,7 @@ import ensarCv from "../assets/ensar-cv.pdf"
           alt="Profile"
         />
       </div>
-    </div>
+    
   )
 }
 
